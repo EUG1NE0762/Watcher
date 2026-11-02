@@ -1,0 +1,16 @@
+{
+  "name": "@watcher/supabase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Watcher backend: migrations, seed, Edge Functions and their tests",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "@watcher/scoring": "*",
+    "zod": "^3.25.76"
+  }
+}

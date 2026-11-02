@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.local
+coverage/
+dist/
+.expo/
+web-build/
+supabase/.temp/
+supabase/.branches/
+*.tsbuildinfo
+.DS_Store
+*.apk
+*.aab

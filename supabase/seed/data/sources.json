@@ -1,0 +1,12 @@
+[
+  { "id": "dec", "name": "Drug Enforcement Commission", "type": "official", "base_url": "https://www.dec.gov.zm", "credibility_weight": 1.0, "feeds": ["https://www.dec.gov.zm/feed/"] },
+  { "id": "zps", "name": "Zambia Police Service", "type": "official", "base_url": "https://www.zambiapolice.gov.zm", "credibility_weight": 1.0, "feeds": ["https://www.zambiapolice.gov.zm/feed/"] },
+  { "id": "zamstats", "name": "Zambia Statistics Agency", "type": "official", "base_url": "https://www.zamstats.gov.zm", "credibility_weight": 1.0, "feeds": [] },
+  { "id": "znbc", "name": "ZNBC", "type": "media", "base_url": "https://www.znbc.co.zm", "credibility_weight": 0.9, "feeds": ["https://www.znbc.co.zm/news/feed/"] },
+  { "id": "daily_mail", "name": "Zambia Daily Mail", "type": "media", "base_url": "https://www.daily-mail.co.zm", "credibility_weight": 0.85, "feeds": ["https://www.daily-mail.co.zm/feed/"] },
+  { "id": "times_zambia", "name": "Times of Zambia", "type": "media", "base_url": "https://www.times.co.zm", "credibility_weight": 0.85, "feeds": ["https://www.times.co.zm/?feed=rss2"] },
+  { "id": "diggers", "name": "News Diggers", "type": "media", "base_url": "https://diggers.news", "credibility_weight": 0.8, "feeds": ["https://diggers.news/feed/"] },
+  { "id": "lusaka_times", "name": "Lusaka Times", "type": "media", "base_url": "https://www.lusakatimes.com", "credibility_weight": 0.7, "feeds": ["https://www.lusakatimes.com/feed/"] },
+  { "id": "mwebantu", "name": "Mwebantu", "type": "media", "base_url": "https://www.mwebantu.com", "credibility_weight": 0.7, "feeds": ["https://www.mwebantu.com/feed/"] },
+  { "id": "zambian_watchdog", "name": "Zambian Watchdog", "type": "media", "base_url": "https://www.zambianwatchdog.com", "credibility_weight": 0.4, "requires_corroboration": true, "feeds": [] }
+]

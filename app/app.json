@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Watcher",
+    "slug": "watcher",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "zm.watcher.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Watcher uses your location on your phone only, to find the area you are in. It is not sent to our servers unless you choose to attach it to a report."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "zm.watcher.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": true,
+          "enableBackgroundRecording": false,
+          "recordAudioAndroid": false,
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Watcher uses your location on your phone only, to find the area you are in. It is not sent to our servers unless you choose to attach it to a report.",
+          "isAndroidBackgroundLocationEnabled": false
+        }
+      ],
+      "expo-notifications",
+      "expo-secure-store",
+      "expo-localization",
+      "expo-status-bar"
+    ],
+    "scheme": "watcher",
+    "description": "Verified area-safety ratings for Zambia. Ratings are guidance, not guarantees.",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_comment": "Edit this file to configure help resources. Numbers were cross-checked against embassy/operator listings in Nov 2026 (sources below) but sources conflict on some; confirm locally before production. Never add a number you have not verified.",
+  "_sources": [
+    "https://travel.gc.ca/assistance/embassies-consulates/zambia",
+    "https://www.swedenabroad.se/sv/om-utlandet-för-svenska-medborgare/zambia/hjälp-till-svenskar-utomlands/akut-hjälp/",
+    "https://www.mtn.com/country/zambia/",
+    "https://www.unicef.org/zambia/stories/lifeline-zambias-children"
+  ],
+  "emergency": [
+    { "id": "general", "label": "General emergency", "number": "999" },
+    { "id": "police", "label": "Police", "number": "991" },
+    { "id": "ambulance", "label": "Ambulance", "number": "992" },
+    { "id": "fire", "label": "Fire brigade", "number": "993" },
+    { "id": "gbv", "label": "Lifeline (violence and crisis line, toll-free)", "number": "933" },
+    { "id": "child", "label": "Childline (toll-free)", "number": "116" }
+  ],
+  "support": [
+    {
+      "id": "chainama",
+      "label": "Chainama Hills College Hospital (mental health and addiction services, Lusaka)",
+      "url": "https://www.google.com/maps/search/Chainama+Hills+College+Hospital+Lusaka",
+      "note": "Public psychiatric hospital. Ask about substance-use treatment."
+    },
+    {
+      "id": "dec",
+      "label": "Drug Enforcement Commission (prevention and counselling information)",
+      "url": "https://www.dec.gov.zm",
+      "note": "Also the place to report drug trafficking."
+    },
+    {
+      "id": "local-placeholder",
+      "label": "Local support group (placeholder)",
+      "url": null,
+      "note": "Add a verified local rehabilitation centre or peer-support group here."
+    }
+  ],
+  "tourism": [
+    { "id": "zta", "label": "Zambia Tourism Agency", "url": "https://www.zambiatourism.com", "number": null },
+    { "id": "embassy", "label": "Your embassy or consulate", "url": "https://www.google.com/search?q=embassies+in+Lusaka", "number": null }
+  ],
+  "nearbyFallback": [
+    { "name": "University Teaching Hospital (UTH)", "kind": "hospital", "lat": -15.4313, "lng": 28.3127 },
+    { "name": "Levy Mwanawasa University Teaching Hospital", "kind": "hospital", "lat": -15.3833, "lng": 28.3667 },
+    { "name": "Lusaka Central Police Station", "kind": "police", "lat": -15.4208, "lng": 28.2848 }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  { "area_id": "lsk-soweto", "count": 70, "categories": { "theft": 6, "robbery": 2, "assault": 1, "drug_offence": 1 }, "substances": { "alcohol": 3, "cannabis": 3, "methaqualone": 1 }, "darkShare": 0.35, "recencyBias": 0.8 },
+  { "area_id": "lsk-intercity", "count": 50, "categories": { "theft": 6, "robbery": 3, "assault": 1 }, "substances": { "alcohol": 3, "cannabis": 2 }, "darkShare": 0.5, "recencyBias": 1 },
+  { "area_id": "lsk-cbd", "count": 40, "categories": { "theft": 5, "robbery": 2, "vehicle_crime": 2, "assault": 1 }, "substances": { "alcohol": 2, "cannabis": 1 }, "darkShare": 0.4, "recencyBias": 1.2 },
+  { "area_id": "lsk-kanyama", "count": 19, "categories": { "theft": 3, "burglary": 2, "assault": 2, "drug_offence": 2, "robbery": 1 }, "substances": { "cannabis": 3, "alcohol": 3, "heroin": 1 }, "darkShare": 0.55, "recencyBias": 1 },
+  { "area_id": "lsk-chawama", "count": 16, "categories": { "burglary": 3, "theft": 2, "assault": 2, "drug_offence": 1 }, "substances": { "alcohol": 3, "cannabis": 2 }, "darkShare": 0.55, "recencyBias": 1.4 },
+  { "area_id": "lsk-matero", "count": 20, "categories": { "theft": 3, "burglary": 2, "assault": 1, "drug_offence": 1 }, "substances": { "cannabis": 2, "alcohol": 2, "methaqualone": 1 }, "darkShare": 0.5, "recencyBias": 1 },
+  { "area_id": "lsk-garden", "count": 18, "categories": { "theft": 2, "robbery": 2, "drug_offence": 1, "assault": 1 }, "substances": { "cannabis": 3, "alcohol": 2, "heroin": 1 }, "darkShare": 0.6, "recencyBias": 0.9 },
+  { "area_id": "lsk-kalingalinga", "count": 16, "categories": { "theft": 3, "burglary": 1, "assault": 1 }, "substances": { "alcohol": 3, "cannabis": 1 }, "darkShare": 0.5, "recencyBias": 1 },
+  { "area_id": "lsk-chilenje", "count": 14, "categories": { "burglary": 3, "theft": 2, "vehicle_crime": 1 }, "substances": { "alcohol": 2, "cannabis": 1 }, "darkShare": 0.55, "recencyBias": 1.1 },
+  { "area_id": "lsk-chelstone", "count": 14, "categories": { "theft": 2, "burglary": 2, "vehicle_crime": 1, "robbery": 1 }, "substances": { "alcohol": 2, "cannabis": 1 }, "darkShare": 0.5, "recencyBias": 1.6 },
+  { "area_id": "lsk-northmead", "count": 15, "categories": { "theft": 2, "assault": 2, "vehicle_crime": 1 }, "substances": { "alcohol": 4, "cannabis": 1, "cocaine": 1 }, "darkShare": 0.7, "recencyBias": 1 },
+  { "area_id": "lsk-emmasdale", "count": 9, "categories": { "theft": 2, "vehicle_crime": 2, "burglary": 1 }, "substances": { "alcohol": 1 }, "darkShare": 0.45, "recencyBias": 1.2 },
+  { "area_id": "lsk-woodlands", "count": 8, "categories": { "burglary": 3, "vehicle_crime": 1, "theft": 1 }, "substances": { "alcohol": 1 }, "darkShare": 0.6, "recencyBias": 1.3 },
+  { "area_id": "lsk-kabulonga", "count": 9, "categories": { "burglary": 3, "vehicle_crime": 1 }, "substances": { "alcohol": 1 }, "darkShare": 0.65, "recencyBias": 1.2 },
+  { "area_id": "lsk-rhodes-park", "count": 7, "categories": { "theft": 2, "vehicle_crime": 1, "burglary": 1 }, "substances": { "alcohol": 1 }, "darkShare": 0.5, "recencyBias": 1.2 },
+  { "area_id": "lsk-ibex-hill", "count": 2, "categories": { "burglary": 1 }, "substances": {}, "darkShare": 0.6, "recencyBias": 1 }
+]

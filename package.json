@@ -1,0 +1,45 @@
+{
+  "name": "watcher",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Watcher: verified area-safety ratings for Zambia",
+  "license": "MIT",
+  "workspaces": [
+    "app",
+    "packages/*",
+    "supabase"
+  ],
+  "scripts": {
+    "start": "npm run start --workspace app",
+    "web": "npm run web --workspace app",
+    "android": "npm run android --workspace app",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "eslint . --max-warnings=0",
+    "test": "node --experimental-vm-modules --no-warnings=ExperimentalWarning node_modules/jest/bin/jest.js",
+    "sync:scoring": "node scripts/sync-scoring.mjs",
+    "seed:generate": "node scripts/generate-seed.mjs",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "verify": "npm run sync:scoring -- --check && npm run check:secrets && npm run typecheck && npm run lint && npm test",
+    "ingest:dry": "node scripts/ingest-dry-run.mjs",
+    "deploy:backend": "node scripts/deploy-backend.mjs",
+    "build:apk": "npm run build:apk --workspace app",
+    "build:apk:local": "npm run build:apk:local --workspace app",
+    "export:web": "npm run export:web --workspace app"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.14",
+    "@electric-sql/pglite-postgis": "^0.2.14",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.19.2",
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "~58.0.4",
+    "globals": "^17.14.0",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.15",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.1"
+  }
+}

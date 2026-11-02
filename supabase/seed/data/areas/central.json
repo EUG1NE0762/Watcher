@@ -1,0 +1,5 @@
+[
+  {"id":"kbw-town","name":"Kabwe Town Centre","city":"Kabwe","province":"Central","area_type":"mixed","aliases":["Kabwe town centre","Kabwe CBD"],"description":"Town centre of Kabwe, the Central provincial capital.","centroid":{"lat":-14.4434,"lng":28.4465},"radius_km":1.4},
+  {"id":"kbw-makululu","name":"Makululu","city":"Kabwe","province":"Central","area_type":"residential","aliases":[],"description":"Large residential township south-west of Kabwe centre.","centroid":{"lat":-14.447,"lng":28.3961},"radius_km":1.3},
+  {"id":"kpm-town","name":"Kapiri Mposhi Town Centre","city":"Kapiri Mposhi","province":"Central","area_type":"transport","aliases":["Kapiri town centre","Kapiri Mposhi station"],"description":"Road and rail junction town, northern terminus of the TAZARA railway.","centroid":{"lat":-13.9699,"lng":28.6786},"radius_km":1.2}
+]

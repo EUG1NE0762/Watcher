@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@watcher/scoring": "../_shared/scoring/index.ts",
+    "zod": "npm:zod@3.25.76",
+    "@supabase/supabase-js": "npm:@supabase/supabase-js@2.118.0"
+  }
+}

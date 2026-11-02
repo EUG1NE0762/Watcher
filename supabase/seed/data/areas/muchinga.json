@@ -1,0 +1,4 @@
+[
+  {"id":"cns-town","name":"Chinsali Town Centre","city":"Chinsali","province":"Muchinga","area_type":"mixed","aliases":["Chinsali town centre"],"description":"Town centre of Chinsali, the Muchinga provincial capital.","centroid":{"lat":-10.55,"lng":32.0661},"radius_km":1.1},
+  {"id":"nkd-border","name":"Nakonde Border Post","city":"Nakonde","province":"Muchinga","area_type":"transport","aliases":["Nakonde border","Nakonde-Tunduma border"],"description":"Busy road border crossing with Tanzania.","centroid":{"lat":-9.3314,"lng":32.7548},"radius_km":1.2}
+]
